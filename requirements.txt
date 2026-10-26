@@ -1,0 +1,6 @@
+# The core (dataset, baseline target, grader, report, viewer) uses only the standard library.
+# These packages are optional and only needed for live model targets and Foundry cloud runs.
+openai>=1.60
+azure-identity>=1.19
+azure-ai-projects>=2.0.0
+python-dotenv>=1.0

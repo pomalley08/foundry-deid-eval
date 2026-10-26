@@ -1,0 +1,5237 @@
+{
+ "baseline/note-001": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "82f66f825c84",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-002": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.8333333333333334,
+  "deid_sha1": "6bde643ba4ca",
+  "fn": 3,
+  "fp": 1,
+  "grade": 0.8235294117647058,
+  "precision": 0.9333333333333333,
+  "recall": 0.8235294117647058,
+  "residual_phi": true,
+  "tp": 14
+ },
+ "baseline/note-003": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "635c4d6f3f85",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "baseline/note-004": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 2,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7142857142857143,
+  "deid_sha1": "fef79accece7",
+  "fn": 3,
+  "fp": 2,
+  "grade": 0.8125,
+  "precision": 0.8666666666666667,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "baseline/note-005": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "261f5b57b877",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-006": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7777777777777778,
+  "deid_sha1": "fe957c419ec0",
+  "fn": 0,
+  "fp": 3,
+  "grade": 1.0,
+  "precision": 0.7692307692307693,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "baseline/note-007": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "b06120e2758d",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8125,
+  "precision": 0.8125,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "baseline/note-008": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.6666666666666666,
+  "deid_sha1": "5a4d0fa2a743",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9166666666666666,
+  "precision": 0.7857142857142857,
+  "recall": 0.9166666666666666,
+  "residual_phi": true,
+  "tp": 11
+ },
+ "baseline/note-009": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "222d880e0285",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8125,
+  "precision": 0.8125,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "baseline/note-010": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.875,
+  "deid_sha1": "659018ab6b76",
+  "fn": 0,
+  "fp": 1,
+  "grade": 1.0,
+  "precision": 0.9230769230769231,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 12
+ },
+ "baseline/note-011": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "19506926e12c",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9,
+  "precision": 0.75,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "baseline/note-012": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "51daeceab3f2",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-013": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 2,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7142857142857143,
+  "deid_sha1": "70d8d2a7ce63",
+  "fn": 3,
+  "fp": 2,
+  "grade": 0.8333333333333334,
+  "precision": 0.8823529411764706,
+  "recall": 0.8333333333333334,
+  "residual_phi": true,
+  "tp": 15
+ },
+ "baseline/note-014": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 2,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7777777777777778,
+  "deid_sha1": "cdc33f1e48e7",
+  "fn": 0,
+  "fp": 2,
+  "grade": 1.0,
+  "precision": 0.8461538461538461,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "baseline/note-015": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "8f062288ce63",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-016": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7142857142857143,
+  "deid_sha1": "46928282b5d2",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9,
+  "precision": 0.75,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "baseline/note-017": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "861423c14674",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-018": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "88677c8cd12d",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "baseline/note-019": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "db51862fb7dd",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9090909090909091,
+  "precision": 0.7692307692307693,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "baseline/note-020": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.6666666666666666,
+  "deid_sha1": "42ab48068658",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8125,
+  "precision": 0.8125,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "baseline/note-021": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.6666666666666666,
+  "deid_sha1": "48a0096db3d0",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8,
+  "precision": 0.8,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 12
+ },
+ "baseline/note-022": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e7624848ee79",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-023": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "f89352cc06f0",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "baseline/note-024": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7,
+  "deid_sha1": "f5d884948607",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9090909090909091,
+  "precision": 0.7692307692307693,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "baseline/note-025": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "78c2299e42b3",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "baseline/note-026": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.8333333333333334,
+  "deid_sha1": "8713681e403f",
+  "fn": 3,
+  "fp": 1,
+  "grade": 0.8,
+  "precision": 0.9230769230769231,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 12
+ },
+ "baseline/note-027": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "6397071776a1",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8125,
+  "precision": 0.8125,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "baseline/note-028": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 2,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.7777777777777778,
+  "deid_sha1": "221df447bcda",
+  "fn": 1,
+  "fp": 2,
+  "grade": 0.9090909090909091,
+  "precision": 0.8333333333333334,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "baseline/note-029": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.75,
+  "deid_sha1": "d31f9ac2c0c9",
+  "fn": 1,
+  "fp": 3,
+  "grade": 0.9090909090909091,
+  "precision": 0.7692307692307693,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "baseline/note-030": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 3,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 0.625,
+  "deid_sha1": "3bb9ad3e1582",
+  "fn": 3,
+  "fp": 3,
+  "grade": 0.8,
+  "precision": 0.8,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 12
+ },
+ "gpt-4.1-mini/note-001": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e8442e93acf4",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-002": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ebef42ea8312",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 17
+ },
+ "gpt-4.1-mini/note-003": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "fc5921aa4f3c",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-004": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "90e71cf9057c",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-4.1-mini/note-005": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "9840117990ac",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-006": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3418690aa60e",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-007": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "a761e7732d16",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-4.1-mini/note-008": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ed2154d48fcc",
+  "fn": 3,
+  "fp": 0,
+  "grade": 0.75,
+  "precision": 1.0,
+  "recall": 0.75,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-009": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "aca76272e2f0",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-4.1-mini/note-010": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "d34d565eef6d",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9166666666666666,
+  "precision": 1.0,
+  "recall": 0.9166666666666666,
+  "residual_phi": true,
+  "tp": 11
+ },
+ "gpt-4.1-mini/note-011": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "f5eefc5a23c6",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-012": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "298ffb9748e4",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-013": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "faa9262ab374",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 18
+ },
+ "gpt-4.1-mini/note-014": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "fd2ac4252d06",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9090909090909091,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-015": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "1b05e636b10f",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-016": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3d38a5debbea",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "gpt-4.1-mini/note-017": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "784fe7285e6c",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "gpt-4.1-mini/note-018": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "17d09ee9d5d2",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-019": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "b84ca02b021d",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9090909090909091,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-020": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "02c0f0c77861",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-4.1-mini/note-021": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "bacadf59e934",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 15
+ },
+ "gpt-4.1-mini/note-022": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "7ec32af907d9",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "gpt-4.1-mini/note-023": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ef902178876a",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-4.1-mini/note-024": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "58ba8a485621",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-4.1-mini/note-025": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "f736cf0d50ad",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-026": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "578da99efde8",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 15
+ },
+ "gpt-4.1-mini/note-027": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "8d512e5470fa",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-4.1-mini/note-028": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "1076e93b0d4f",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9090909090909091,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-029": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "db8b1757e5c4",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9090909090909091,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-4.1-mini/note-030": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "00f2ea5ed2ae",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8666666666666667,
+  "precision": 1.0,
+  "recall": 0.8666666666666667,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "gpt-5.4-nano/note-001": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "78474d200795",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-002": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "8f72b3eaeda4",
+  "fn": 2,
+  "fp": 1,
+  "grade": 0.8823529411764706,
+  "precision": 0.9375,
+  "recall": 0.8823529411764706,
+  "residual_phi": true,
+  "tp": 15
+ },
+ "gpt-5.4-nano/note-003": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "b527bf5aaa64",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-004": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "58fc6386082f",
+  "fn": 6,
+  "fp": 1,
+  "grade": 0.625,
+  "precision": 0.9090909090909091,
+  "recall": 0.625,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-005": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3e59c16d884f",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-006": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "afb76daf81ce",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9,
+  "precision": 1.0,
+  "recall": 0.9,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-5.4-nano/note-007": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e5aa05e28a10",
+  "fn": 3,
+  "fp": 0,
+  "grade": 0.8125,
+  "precision": 1.0,
+  "recall": 0.8125,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "gpt-5.4-nano/note-008": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "844d26e68502",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9166666666666666,
+  "precision": 1.0,
+  "recall": 0.9166666666666666,
+  "residual_phi": true,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-009": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "c5fdd5385f58",
+  "fn": 6,
+  "fp": 0,
+  "grade": 0.625,
+  "precision": 1.0,
+  "recall": 0.625,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-010": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "1cc9dde32c97",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8333333333333334,
+  "precision": 1.0,
+  "recall": 0.8333333333333334,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-011": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "7627d0c67ad1",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8,
+  "precision": 1.0,
+  "recall": 0.8,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "gpt-5.4-nano/note-012": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "064fcb0a9942",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-013": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 3,
+    "fp": 0,
+    "tp": 0
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "fb39e7383f69",
+  "fn": 7,
+  "fp": 0,
+  "grade": 0.6111111111111112,
+  "precision": 1.0,
+  "recall": 0.6111111111111112,
+  "residual_phi": true,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-014": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3a0046c75fec",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-5.4-nano/note-015": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3f157fdb162a",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-016": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "6478c490db43",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-017": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "b438b0def186",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-018": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "5a6b957c9d3d",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-019": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "DEVICE_ID": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "b400857ef14d",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.8181818181818182,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-5.4-nano/note-020": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "9f834491f863",
+  "fn": 2,
+  "fp": 0,
+  "grade": 0.875,
+  "precision": 1.0,
+  "recall": 0.875,
+  "residual_phi": true,
+  "tp": 14
+ },
+ "gpt-5.4-nano/note-021": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 1
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ae66dcf98478",
+  "fn": 7,
+  "fp": 0,
+  "grade": 0.5333333333333333,
+  "precision": 1.0,
+  "recall": 0.5333333333333333,
+  "residual_phi": true,
+  "tp": 8
+ },
+ "gpt-5.4-nano/note-022": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "3b6eedb0113e",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-023": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "c0085da55849",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-024": {
+  "by_category": {
+   "DATE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "c182cfc041a6",
+  "fn": 1,
+  "fp": 0,
+  "grade": 0.9090909090909091,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "residual_phi": true,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-025": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "fb73eaa49ea7",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-5.4-nano/note-026": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 1,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "9cf410d9b8f8",
+  "fn": 2,
+  "fp": 1,
+  "grade": 0.8666666666666667,
+  "precision": 0.9285714285714286,
+  "recall": 0.8666666666666667,
+  "residual_phi": true,
+  "tp": 13
+ },
+ "gpt-5.4-nano/note-027": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "bf960fbefc15",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-5.4-nano/note-028": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "b7f9783205f4",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-029": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "39501388284b",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-5.4-nano/note-030": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 2,
+    "fp": 0,
+    "tp": 0
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 0
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   },
+   "PHONE": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 1,
+    "fp": 0,
+    "tp": 2
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e7754fb6ec26",
+  "fn": 6,
+  "fp": 0,
+  "grade": 0.6,
+  "precision": 1.0,
+  "recall": 0.6,
+  "residual_phi": true,
+  "tp": 9
+ },
+ "gpt-6-astra/note-001": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e8442e93acf4",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-002": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "376c05939ee1",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 17
+ },
+ "gpt-6-astra/note-003": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "61ac0eec9ab5",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-004": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e84c3bcd0d3e",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-6-astra/note-005": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "448c75cc8589",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-006": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "efde98963d8f",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-007": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "0ee1f2697029",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-6-astra/note-008": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "65d560adc47c",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 12
+ },
+ "gpt-6-astra/note-009": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "0719a723c7f8",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-6-astra/note-010": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "a303bc110ca7",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 12
+ },
+ "gpt-6-astra/note-011": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ec40fe8f9c8b",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-012": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "d0aa477e102a",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-013": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "dd6ed59b0d78",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 18
+ },
+ "gpt-6-astra/note-014": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "54a271d4f871",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-015": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "8235e02edd97",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-016": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "8675e07127f3",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-017": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "152d2d2d7e63",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-018": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "711b2d00d0a8",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-019": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "0cdfd877dbec",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-020": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "5e0f24e07ab6",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-6-astra/note-021": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "9c870564ff0a",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 15
+ },
+ "gpt-6-astra/note-022": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "13ede09cd58f",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-023": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "ef902178876a",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-024": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "e7d1873d3822",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-025": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "DEVICE_ID": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "f736cf0d50ad",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 10
+ },
+ "gpt-6-astra/note-026": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "c7ef592fda41",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 15
+ },
+ "gpt-6-astra/note-027": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "4e81ea706ee0",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 16
+ },
+ "gpt-6-astra/note-028": {
+  "by_category": {
+   "AGE_OVER_89": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "5a30afa81fd2",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-029": {
+  "by_category": {
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 4
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "c7bbcd7cd4b1",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 11
+ },
+ "gpt-6-astra/note-030": {
+  "by_category": {
+   "ADDRESS": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "DATE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "EMAIL": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "MRN": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 1
+   },
+   "PATIENT_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   },
+   "PHONE": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 2
+   },
+   "PROVIDER_NAME": {
+    "fn": 0,
+    "fp": 0,
+    "tp": 3
+   }
+  },
+  "clinical_preservation": 1.0,
+  "deid_sha1": "f7732336b6a5",
+  "fn": 0,
+  "fp": 0,
+  "grade": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "residual_phi": false,
+  "tp": 15
+ }
+}

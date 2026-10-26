@@ -1,0 +1,18 @@
+{
+  "_note": "USD per 1M tokens. List-price estimates for comparison only, not quotes. Keys match a deployment name, a model name, or a model-name prefix. Null means unpriced.",
+  "_source": "Azure Retail Prices API (prices.azure.com), serviceName 'Foundry Models', eastus2, Global Standard pay-as-you-go, retrieved 2026-10-26. gpt-6-astra uses the short-context meters (6-astra ShortCo Inp/Opt Std Gl, effective 2026-09-01); gpt-4.1-mini uses 'gpt 4.1 mini Inp/Outp glbl'; gpt-5.4-nano uses '5.4 nano Inp/Opt Gl' (effective 2026-03-01). Cached-input discounts are not applied.",
+  "models": {
+    "gpt-6-astra": {
+      "input_per_1m": 10.0,
+      "output_per_1m": 50.0
+    },
+    "gpt-4.1-mini": {
+      "input_per_1m": 0.4,
+      "output_per_1m": 1.6
+    },
+    "gpt-5.4-nano": {
+      "input_per_1m": 0.2,
+      "output_per_1m": 1.25
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Secrets and local config
+.env
+*.env
+
+# Real data: point DEID_DATA_DIR here. Never commit real PHI.
+data/private/
+
+# Eval outputs (reports and the viewer contain note text)
+outputs/
+results/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
